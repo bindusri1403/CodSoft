@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Landing Page</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header style="background:linear-gradient(to right, #f182d1, #25fccd); color: #fff; padding: 1rem 0;">
+        <div style="width: 90%; max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-size: 1.8rem; font-weight: bold;">WebDev Co.</div>
+            <nav>
+                <ul style="list-style: none; display: flex; margin: 0; padding: 0;">
+                    <li style="margin: 0 1rem;"><a href="#home" style="color: #fff; text-decoration: none;">Home</a></li>
+                    <li style="margin: 0 1rem;"><a href="#about" style="color: #fff; text-decoration: none;">About</a></li>
+                    <li style="margin: 0 1rem;"><a href="#services" style="color: #fff; text-decoration: none;">Services</a></li>
+                    <li style="margin: 0 1rem;"><a href="#contact" style="color: #fff; text-decoration: none;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" style="background: linear-gradient(to right, #b782f1, #2575fc); height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; color: #fff;">
+        <div>
+            <h1>Welcome to WebDev Co.</h1>
+            <p>Your partner for cutting-edge web development solutions.</p>
+            <a href="#contact" style="background: #fff; color: #007bff; padding: 0.8rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold;">Get in Touch</a>
+        </div>
+        <!-- Add this code inside the <section id="home"> element -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 2rem;">
+    <img src="image\growth.jpg" alt="Image 1" style="width: 200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <img src="image\idea2.jpg" alt="Image 2" style="width: 200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <img src="image\puzzle.jpg" alt="Image 3" style="width: 200px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background: linear-gradient(to bottom, #004e92, #000428); padding: 3rem 0; text-align: center; color: #fff;">
+        <h2>Contact Us</h2>
+        <form style="background: rgba(0, 0, 0, 0.8); padding: 2rem; border-radius: 10px; max-width: 600px; margin: auto;">
+            <input type="text" name="name" placeholder="Your Name" required style="background: rgba(255, 255, 255, 0.9); border: none; border-radius: 5px; margin: 0.5rem 0; width: 100%; color: #333; font-size: 1rem;">
+            <input type="email" name="email" placeholder="Your Email" required style="background: rgba(255, 255, 255, 0.9); border: none; border-radius: 5px; margin: 0.5rem 0; width: 100%; color: #333; font-size: 1rem;">
+            <textarea name="message" rows="5" placeholder="Your Message" required style="background: rgba(255, 255, 255, 0.9); border: none; border-radius: 5px; margin: 0.5rem 0; width: 100%; color: #333; font-size: 1rem;"></textarea>
+            <button type="submit" style="background: #007bff; color: #fff; border: none; padding: 1rem 2rem; border-radius: 5px; cursor: pointer; font-size: 1rem;">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #333; color: #fff; text-align: center; padding: 1rem 0;">
+        <p>&copy; 2024 WebDev Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
